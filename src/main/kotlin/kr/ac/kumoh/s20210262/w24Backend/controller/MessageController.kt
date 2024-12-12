@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController
 
 
 @RestController
-@CrossOrigin(origins = ["https://wsp2024hyeokfrontend.netlify.app/"])
+@CrossOrigin(origins = ["https://wsp2024hyeokfrontend.netlify.app"])
 
 class MessageController {
     @GetMapping
